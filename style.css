@@ -1,0 +1,27 @@
+canvas {
+    background: #eee;
+    display: block;
+    margin: 0 auto;
+}
+
+#game-over {
+    display: none;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+button {
+    margin: 0 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #0095DD;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #007bb5;
+}

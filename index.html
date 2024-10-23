@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>打磚塊遊戲</title>
+    <style>
+        canvas {
+            background: #eee;
+            display: block;
+            margin: 0 auto;
+        }
+        .button {
+            display: block;
+            width: 200px;
+            height: 50px;
+            margin: 10px auto;
+            font-size: 20px;
+        }
+        #message {
+            text-align: center;
+            font-size: 24px;
+            color: red;
+        }
+        #difficulty-buttons {
+            text-align: center;
+            display: none;
+        }
+        #te{text-align: center;
+            font-size: 24px;}
+    </style>
+</head>
+<body>
+
+<canvas id="myCanvas" width="610" height="400"></canvas>
+<div id="difficulty-buttons">
+    <button class="button" id="easy-button">簡單</button>
+    <button class="button" id="medium-button">中等</button>
+    <button class="button" id="hard-button">困難</button>
+</div>
+<div id="message"></div>
+<p id="te">主題</p>
+<div id="background-buttons">
+    <button class="button" id="night-button">深藍色</button>
+    <button class="button" id="forest-button">綠色</button>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>
